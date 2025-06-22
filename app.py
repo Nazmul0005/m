@@ -7,11 +7,11 @@ from langchain_mongodb import MongoDBAtlasVectorSearch
 from langchain_openai import OpenAIEmbeddings, OpenAI
 from langchain.prompts import PromptTemplate  # Add this import
 import numpy as np  # Add this import if not present
-import params
 import uvicorn
 import warnings
 import os
 from difflib import get_close_matches
+import config
 
 # Suppress deprecation warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
@@ -24,16 +24,16 @@ app = FastAPI(
 )
 
 # Initialize OpenAI client
-llm = OpenAI(api_key=params.openai_api_key, temperature=0, max_tokens=30)
+llm = OpenAI(api_key=config.OPENAI_API_KEY, temperature=0, max_tokens=30)
 
 # Initialize MongoDB and vector store
-client = MongoClient(params.mongodb_conn_string)
-collection = client[params.db_name][params.collection_name]
-embeddings = OpenAIEmbeddings(openai_api_key=params.openai_api_key)
+client = MongoClient(config.MONGODB_CONN_STRING)
+collection = client[config.DB_NAME][config.COLLECTION_NAME]
+embeddings = OpenAIEmbeddings(openai_api_key=config.OPENAI_API_KEY)
 vector_store = MongoDBAtlasVectorSearch(
     collection, 
     embeddings, 
-    index_name=params.index_name
+    index_name=config.INDEX_NAME,
 )
 
 # Basic conversation patterns
