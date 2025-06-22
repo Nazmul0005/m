@@ -11,7 +11,7 @@
       "app",
       "purpose"
     ],
-    "answer": "Mobile app connecting customers with certified engineers for technical services.",
+    "answer": "MRPH is a mobile app that connects customers with certified engineers for technical services.",
     "category": "general",
     "user_type": "both",
     "priority": 1
@@ -207,7 +207,7 @@
       "hvac",
       "plumbing"
     ],
-    "answer": "Electrical Services, HVAC Systems, Security Systems, Power Solutions, Plumbing, Covers leak repairs.",
+    "answer": "Available services: Electrical Services, HVAC Systems, Security Systems, Power Solutions, Plumbing, Covers leak repairs etc.",
     "category": "services",
     "user_type": "both",
     "priority": 1

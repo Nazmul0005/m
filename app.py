@@ -61,7 +61,7 @@ MRPH_CATEGORIES = {
         'required', 'registration', 'details', 'role', 'selection', 'choose'
     ],
     'authentication': [
-        'login', 'log in', 'sign in', 'access', 'password', 'forgot', 
+        'log','login', 'log in', 'sign in', 'access', 'password', 'forgot', 
         'reset', 'recover', 'logout', 'log out', 'sign out', 'exit', 
         'change', 'security', 'verify', 'verification', 'email', 'phone'
     ],
@@ -167,21 +167,22 @@ def is_topic_relevant(question: str, threshold: float = 0.8) -> tuple[bool, str]
     Check if question is relevant to MRPH and return category
     Returns: (is_relevant, category)
     """
-    question_words = question.lower().split()
-    
+    question_lower = question.lower()
     for category, keywords in MRPH_CATEGORIES.items():
-        for word in question_words:
-            for keyword in keywords:
-                if is_similar_to_keywords(word, [keyword], threshold):
-                    return True, category
-                    
+        for keyword in keywords:
+            if keyword in question_lower:
+                return True, category
     return False, ""
 
 @app.post("/chat", response_model=ChatResponse)
 async def chat(query: Query):
     try:
         question = query.question.strip().lower()
-        
+
+        # Restrict question to 100 words before embedding
+        if len(question.split()) > 100:
+            return {"answer": "Your question is too long. Please limit your query to 100 words or less."}
+
         # Handle basic conversations
         if question in BASIC_CONVERSATIONS:
             return {"answer": BASIC_CONVERSATIONS[question]}
@@ -200,7 +201,7 @@ async def chat(query: Query):
 
         # Check if question is related to MRPH topics
         MRPH_keywords =  [
-    'mrph', 'about', 'app', 'purpose', 'marketplace', 
+    'mrph', 'about', 'app', 'purpose', 'marketplace', 'log',
     'engineers', 'services', 'who', 'use', 'age', 'customers', 'create', 
     'account', 'register', 'sign up', 'customer', 'engineer', 'professional', 
     'trade certification', 'information', 'required', 'registration', 'details', 
