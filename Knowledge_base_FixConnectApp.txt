@@ -1,0 +1,324 @@
+FixConnect App
+a mobile application designed to connect users needing technical assistance with trusted engineers. The images showcase the app's functionality, including user registration and login, the process for requesting and accepting service quotes, managing payments and bookings, and interacting through a chat feature. The documentation also provides insight into the application's legal policies and user profile management, highlighting features for both customers and engineers.
+
+Briefing Document: FixConnect App Overview
+This briefing document provides an overview of the FixConnect app based on the provided image excerpts. The app appears to be a platform connecting users needing technical services with certified engineers. The document highlights the main themes and important features observed in the app's interface.
+Main Themes:
+Connecting Users with Engineers: The core function of FixConnect is to provide a platform for customers to easily find and connect with trusted engineers for various technical issues. This is evident from the initial splash screen message: "Find Trusted Engineers Fast. Easily connect with certified professionals for any technical issue — anytime, anywhere."
+Streamlined Service Request and Management: The app seems to facilitate the entire process from requesting a service to payment and review. Features like requesting a quote, viewing offers, accepting/declining offers, tracking service progress (Pending, In Progress, Complete), and payment processing (Stripe) suggest a comprehensive workflow.
+User-Centric Design: The interface includes features for both customers and engineers, suggesting a platform designed to cater to the needs of both user types. This is supported by the "Choose Your Role" screen during registration.
+Emphasis on Trust and Certification: The initial description highlights connecting with "certified professionals" and "trusted engineers," indicating a focus on building a reliable service marketplace.
+Most Important Ideas/Facts:
+Dual User Roles: The app supports two distinct user types: Customers and Engineers. This is explicitly shown in the "Choose Your Role" screen during registration.
+Engineer Certification and Verification: The registration process for engineers includes uploading a "Trade Certification" and a verification step, suggesting a vetting process to ensure professional qualifications.
+Service Categories: While not exhaustively listed, the "Request a Quote" screen shows a dropdown menu with potential service categories, including "Electrical," "HVAC Systems," "Security System," and "Power Solution." This indicates a range of technical services are covered.
+Messaging/Chat Functionality: The app includes a messaging feature, allowing users to communicate with engineers directly. This likely facilitates clarifying details and discussing the service.
+Rating and Review System: The "Rating & Review" screen for completed services allows customers to provide feedback on the engineer's performance, contributing to the platform's trust mechanism.
+Payment Integration (Stripe): The payment screen shows Stripe as the payment method, indicating a secure and established payment gateway is used. The ability to add "Extra Payment" suggests flexibility in handling unexpected costs.
+Detailed Service Information: The "Service Details" screen for engineers provides comprehensive information about a requested service, including location, date/time, description, and allows engineers to send offers.
+Notification System: The app features a notification system to alert users about new service requests, job acceptance, messages, and payment processing.
+Profile Management and Account Security: Users can manage their profile information, change passwords, and view legal policies (Terms of Service, Privacy Policy, Refund Policy).
+Subscription Plans (for Engineers): The "Subscription Plan" screen shows different tiers (Free Plan, Pro Plan, Premium Plan) suggesting a potential monetization model for engineers to access premium features or gain more visibility.
+Quotes from Original Source (based on text within the images):
+"Find Trusted Engineers Fast" - Main screen tagline
+"Easily connect with certified professionals for any technical issue — anytime, anywhere." - Main screen description
+"We happy to see you again! to use your account, you should sign in first." - Login screen welcome message
+"Please check your phone. We have to sent the code verification to your number." - Verification screen instruction
+"Congratulation! your password has been changed successfully!" - Successful password change screen message
+"Join FixConnect to access trusted engineers and make your business operating at it's highest" - Customer Register screen message
+"Join FixConnect to access trusted engineers and list your services or includes." - Engineers Register screen message
+"Welcome. by Edward Barnaby" - Customer Home screen welcome message
+"Recommendation for you" - Customer Home screen section title
+"Hello! 👋 I'm your FixConnect Assistant. How can I help you today?" - Chatbot greeting on Customer Home screen
+"Zayn was quick, professional, and fixed our circuit issue in under an hour. Highly & most recommended!" - Example review text
+"By using this platform, you agree to follow all applicable laws and abide by our community standards." - Excerpt from Legal and Policies (Terms of Service)
+"We respect your privacy and are committed to protecting your personal data." - Excerpt from Legal and Policies (Privacy Policy)
+"All purchases are final. Due to the nature of digital content and time-sensitive picks, we do not offer refunds once a pick has been revealed." - Excerpt from Legal and Policies (Refund Policy)
+"Choose Your Role. Select a role to tailor your experience and get the most out of the app." - Role Select screen instruction
+"Service Request List" - Engineers Home screen section title
+"Extra Payment Request" - Services screen option for engineers
+"Good news! Payment for your completed job with Edward Barnaby has been released to your account." - Example notification
+"Go Pro with FixConnect" - Subscription plan title
+"Free Plan £0" - Subscription plan name
+"Pro Plan - £20 for a month" - Subscription plan name and price
+"Premium Plan - £49 for a month" - Subscription plan name and price
+This briefing provides a structured overview of the FixConnect app's functionalities and key aspects based on the provided image sources. It highlights the app's purpose, user experience, and important features.
+
+
+
+
+
+
+
+
+What is FixConnect?
+FixConnect is a mobile application designed to connect users with certified professionals for various technical issues. It serves as a platform for finding and booking services from engineers.
+How can I use FixConnect?
+You can use FixConnect to find and book engineers for technical services. The app allows you to browse service categories, request quotes, accept offers, and manage ongoing and completed services.
+What kind of services are available on FixConnect?
+FixConnect appears to offer a range of technical services. Examples shown in the provided images include Electrical Services, Covers leak repairs, and Plumbing. Users can request quotes for specific service names and categories.
+How does the booking process work?
+The booking process typically involves requesting a quote for a specific service, reviewing offers from available engineers, accepting a suitable offer, confirming the booking, and making a payment upon completion of the service.
+Can I communicate with the engineers through the app?
+Yes, the app includes a messaging feature that allows users to chat with engineers. This facilitates communication regarding service requests, details, and updates.
+What are the different roles on the FixConnect platform?
+Users can register on FixConnect as either a Customer or an Engineer. Each role likely has a tailored experience and specific features available within the app.
+Is there a subscription plan for engineers?
+Yes, the provided images indicate that engineers can choose from different subscription plans, including a Free Plan, Pro Plan, and Premium Plan, which offer varying levels of access and features.
+How does FixConnect handle payments?
+The app utilizes Stripe as a payment method. The payment process seems to involve reviewing price details, potentially adding extra payments, and confirming the booking before processing the final payment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+FixConnect App Study Guide
+Quiz
+What is the primary purpose of the FixConnect app? The FixConnect app is designed to easily connect certified professionals for any technical issue, anytime, anywhere. It serves as a platform for customers to find and hire engineers for various services.
+What information is required to create a customer account? To create a customer account, the user needs to provide their username, email, password, and location.
+How does the app verify a new user's identity during registration? The app verifies a new user's identity through a verification code sent to their email address. The user must enter this code to proceed.
+What are the three statuses for services displayed on the Services tab? The three statuses for services displayed on the Services tab are Pending, In Progress, and Complete.
+What information is included in a Service Request List item for engineers? Each item in the Services Request List for engineers includes the type of service, location, date and time, category, and price.
+How can a customer request a quote for a service? A customer can request a quote by filling out a form that includes details such as Service Name, Location, Mobile Number, Service Date, Service Description, and the option to upload an image.
+What payment method is explicitly shown as available within the app? The only payment method explicitly shown as available within the app is Stripe.
+What are the different subscription plans offered by FixConnect? FixConnect offers a Free Plan, a Pro Plan (£20 per month), and a Premium Plan (£40 per month).
+What information is collected under the Privacy Policy section of the Legal and Policies? The Privacy Policy section states that the app collects name, email, and payment info, usage data, and communication preferences.
+How does an engineer accept a service request? An engineer can accept a service request by selecting the offer from the list and tapping the "Accept" button.
+Answer Key
+The primary purpose of the FixConnect app is to easily connect certified professionals (engineers) with customers needing technical services.
+To create a customer account, users must provide their username, email, password, and location.
+The app verifies new users by sending a verification code to their email, which they must enter in the app.
+The three statuses for services are Pending, In Progress, and Complete.
+A Service Request List item for engineers includes the service type, location, date and time, category, and price.
+A customer requests a quote by filling out a form specifying the service details like name, location, date, description, and potentially uploading an image.
+The app explicitly shows Stripe as the available payment method.
+FixConnect offers a Free Plan (£0), Pro Plan (£20/month), and Premium Plan (£40/month).
+The Privacy Policy states the app collects name, email, payment info, usage data, and communication preferences.
+An engineer accepts a service request by tapping "Accept" on the offer in their services list.
+Essay Format Questions
+Analyze the user registration process for both customers and engineers. What similarities and differences exist, and how do these processes facilitate the distinct roles within the app?
+Evaluate the customer flow for requesting and managing services. Discuss the key steps involved, from requesting a quote to rating and reviewing a completed job.
+Describe the engineer's workflow within the FixConnect app, focusing on how they view and respond to service requests and manage their services.
+Examine the various sections available in the user's profile. What information can be accessed and managed, and how do these options contribute to the user's experience?
+Discuss the significance of the Legal and Policies section within the app. Summarize the key points outlined in the Terms of Service, Privacy Policy, and Refund Policy.
+Glossary of Key Terms
+Customer: A user of the FixConnect app who requires technical services from certified professionals. Engineer: A certified professional who offers their technical services through the FixConnect app. Service Request: A request initiated by a customer detailing a technical issue and seeking assistance from an engineer. Quote: An estimated price provided by an engineer for a specific service requested by a customer. Offer List: A list of available service requests that engineers can view and choose to accept. Pending Service: A service request that has been initiated but not yet accepted or started by an engineer. In Progress Service: A service that has been accepted by an engineer and is currently being worked on. Complete Service: A service that has been finished by the engineer. Rating and Review: A feature allowing customers to provide feedback and rate the engineer's performance after a service is completed. Chat: A messaging feature within the app that allows communication between customers and engineers. Profile: A section of the app where users can view and manage their personal information, subscriptions, security settings, and legal/policy details. Subscription Plan: Different membership tiers offered by FixConnect (Free, Pro, Premium) with varying features and benefits. Terms of Service: The legal agreement outlining the rules and guidelines for using the FixConnect platform. Privacy Policy: A document explaining how the FixConnect app collects, uses, and protects user data. Refund Policy: The policy outlining the conditions under which refunds are provided for services purchased through the app. Verification Code: A code sent to a user's email or phone number to confirm their identity during registration or password reset.
+
+
+How does this mobile application facilitate connections between customers and engineers?
+Based on the provided sources, this mobile application, named FixConnect, facilitates connections between customers and engineers through a structured process:
+Role Selection: Users begin by choosing their role, either Customer or Engineer, tailoring their experience within the app.
+Registration: Both roles require registration to access the platform and connect with the other party. Engineers can also upload their trade certification during registration.
+Customer Request: Customers needing a technical service can Request a Quote. This involves providing essential details such as the Service Name, contact number, location, date, service description, and potentially uploading an image related to the issue. Customers can also specify Service Categories, such as HVAC Systems, Security Systems, Power Solutions, and Plumbing.
+Engineer Notification and Offering: These service requests appear in the Services Request List for engineers. Engineers can view the details of a service request. If interested, they can Send Offer by selecting their price and available time.
+Customer Offer Review and Acceptance: Customers receive an Offer List from interested engineers. This list shows engineers who have responded with offers, including their location, rating, and proposed price. The customer can then Accept or Decline an offer from an engineer.
+Direct Communication: Once an offer is accepted, the app provides a Messages feature, allowing customers and engineers to communicate directly, facilitating coordination and clarifying details.
+Notifications: The app uses notifications to alert engineers about New Job Request Available, Job Accepted - Prepare for Visit, and Payment Released for Completed Job, ensuring they are promptly informed of connection opportunities and job statuses. Customers also receive notifications, such as confirmation of payment for a completed job.
+Service Completion and Payment: After the service is in progress, the app facilitates payment. It shows price details, including any extra payment requests. The customer can review and Confirm Booking, and payment can be made, with Stripe listed as a payment method.
+Rating and Review: Once the service is complete, customers can provide a Rating & Review for the engineer's service, which helps build trust and inform future customer-engineer connections on the platform.
+In summary, the application connects customers and engineers by providing a platform for customers to post service requests, engineers to respond with offers, and both parties to communicate and manage the job lifecycle from acceptance through payment and review. The app explicitly aims to help customers "Find Trusted Engineers Fast" and "Easily connect with certified professionals".
+
+
+
+How can a customer register?
+Based on the provided sources, here is how a customer can register for the mobile application:
+Start the registration process: From the initial screen, you are presented with options to "Log In" or "Register". You would tap Register.
+Choose your role: The app shows a "Role select" screen where you must Choose Your Role, selecting either "Customer" or "Engineers". To register as a customer, you would select Customer.
+Create your account: You will then be taken to a "Customer Register" screen titled "Sign Up". Here, you need to Create an account. This step is described as allowing you to "Join FixConnect to access trusted engineers and handle your domestic service & troubles". On this screen, you will need to enter the following details:
+User Name
+Your Email
+Your Password
+Your Location After filling in the required information, you tap the Sign In button at the bottom of the screen (although the screen is labelled "Sign Up", the button text shown is "Sign In").
+Verify your email: Following the account creation step, you will likely need to Verify your email address. A "Verification code" is sent. You need to "Please check your phone" as "We have to sent the code verification to your number". You enter the provided verification code into the input fields. After entering the code, you tap Verify.
+Confirmation: Once the verification is successful, a "Verification Successfull!" message is displayed, stating "You have successfully verified your email address".
+Continue: A Continue button is present after the successful verification, which presumably leads you into the app as a registered customer.
+
+
+How can an engineer register?
+Based on the sources provided and our conversation history, here's how an engineer can register for the mobile application:
+Start the registration process: Like customers, engineers begin from the initial screen that presents options to "Log In" or "Register". To register, they would tap Register.
+Choose your role: On the "Role select" screen, users are prompted to Choose Your Role. Engineers would select Engineers from the two options presented (Customer or Engineers) to tailor their app experience.
+Create your account: This leads to the "Engineers Register" screen, which is a "Sign Up" form for engineers. On this screen, engineers are required to Create an account to "Join FixConnect to access trusted engineers and handle your domestic service & troubles". They need to provide the following information:
+User Name
+Type Your Email
+Type Your Password
+Type Your Location
+Engineers also have the option to Upload Trade Certification during this registration step.
+Additionally, there are fields for writing a short description and setting availability (From... To... Day/Evening/Night), although the availability setting doesn't appear to be required on this initial screen.
+After filling in the required information, engineers tap the Sign In button at the bottom of the screen (despite the screen being labeled "Sign Up").
+Verify your email: The registration process includes an email verification step. A Verification code is sent, and engineers are instructed to "Please check your phone" as the code verification has been sent to their number. They need to enter the provided code into the input fields. After entering the code, they tap Verify.
+Confirmation: Upon successful verification, a "Verification Successfull!" message is displayed, confirming that the email address has been successfully verified.
+Continue: A Continue button is present after the successful verification, which would allow the newly registered engineer to proceed into the application.
+
+
+How can users reset passwords?
+Based on the provided sources, users can reset their passwords through a specific flow:
+From the initial "Sign In" screen, there is a link labeled "Forgot password?". Tapping this link initiates the password reset process.
+Users are directed to a "Reset password" screen. On this screen, they are instructed to "Please enter your email to reset the password". There is an input field where the user must "Type Your Email" associated with their account.
+After entering the email, the user taps the "Continue" button.
+Following this, a "Verify" screen appears, indicating that a Verification code has been sent. The user is prompted to "Please check your phone" as the "code verification" was sent to their number. The user needs to enter the provided code into the designated input fields.
+Once the code is entered, the user taps the "Verify" button.
+Upon successful verification, a "New Password" screen is displayed. The instruction is to "Create your new password so you can share your memories again". There are fields to enter and "Confirm password" for the "New password".
+After entering the new password twice, the user taps the "Change Password" button.
+Finally, a "Successful" screen confirms "Congratulation! your password has been changed successfully!".
+A "Go to Sign In" button is present on this success screen, allowing the user to return to the login screen to sign in with their newly set password.
+
+
+What are the terms of service?
+Based on the provided sources, the Terms of Service for the application are outlined under the "Legal and Policies" section. Here are the key points:
+By using the platform, you agree to follow all applicable laws and abide by community standards.
+Misuse, fraudulent activities, or any other breach of the guidelines may result in account suspension or termination.
+You must be 18 years or older to use this app.
+"Picks" are mentioned as being for entertainment and informational purposes only.
+The platform states they are not responsible for financial outcomes based on the use of the service.
+"Advisors" (likely referring to the engineers on the platform) are independent and responsible for the content they share.
+
+Describe the refund policy.
+Based on the provided sources, the refund policy is outlined under the "Legal and Policies" section.
+The key points of the refund policy are:
+All purchases are final.
+Due to the nature of digital content and time-sensitive picks, the app does not offer refunds once a pick has been revealed.
+If you experience a technical issue, you should contact support for resolution.
+
+
+Describe the privacy policy.
+
+Based on the provided sources, the privacy policy of the application outlines how they respect and protect your personal data.
+Here are the key aspects of the privacy policy:
+The app states they respect your privacy and are committed to protecting your personal data.
+What they collect includes:
+Name, email, and payment info.
+Usage data (e.g., what picks you view or purchase).
+Communication preferences.
+How they use your data:
+To provide and improve the app.
+To process transactions securely.
+To personalize your experience.
+A key commitment of the policy is that they never sell your information to third parties.
+
+Describe the terms of service.
+Based on the provided sources, the Terms of Service for the application are detailed under the "Legal and Policies" section. Here are the key points:
+By using the platform, users agree to follow all applicable laws.
+Users must also abide by community standards.
+It is stated that misuse, fraudulent activities, or any other breach of the guidelines may result in account suspension or termination.
+Users must be 18 years or older to use this app.
+"Picks" are mentioned as being for entertainment and informational purposes only.
+The platform clarifies that they are not responsible for financial outcomes based on the use of the service.
+"Advisors" (likely referring to the engineers on the platform, based on the app's function of connecting customers and engineers) are described as being independent and responsible for the content they share.
+
+
+What are the subscription plans?
+Based on the provided sources, the mobile application offers subscription plans under the banner "Go Pro with FixConnect". This "Go Pro" option allows users to "Access premium plan, stand out to event customers, and get the most out of the app".
+There are three specific subscription plan options available:
+Free Plan: The price for this plan is £0. Its description is "Jump In & Explore".
+Pro Plan: This plan costs £20 for a month. It is described as "Scaling Your Practice".
+Premium Plan: This plan is priced at £40 for a month. Its description is "More Leads, Bigger Profits".
+The sources also indicate that Stripe is available as a payment method for these subscriptions.
+
+
+
+Can users log out?
+Yes, based on the provided sources, users can log out of the application.
+The option to log out is found on the Profile screen. When a user taps Log Out on the Profile screen, a confirmation dialog appears asking, "Are you sure you want to log out?". The user is then presented with two options: Cancel or Yes, Logout.
+
+
+
+How does this mobile application facilitate connections between customers and engineers?
+Based on the provided sources, this mobile application facilitates connections between customers and engineers through the following process:
+Initial Goal: The application aims to Find Trusted Engineers Fast and allow users to Easily connect with certified professionals for technical issues.
+Customer Initiates Request: A customer can start the process by tapping Request a Services from their home screen. This leads to a "Request a Quote" screen where the customer provides details such as the Service Name, their Location, Service Date, and a Service Description. They can also upload an image. After filling in the necessary information, the customer taps Send Request.
+Engineer Receives Requests: Engineers see a Services Request List on their home screen, indicating potential jobs posted by customers. Notifications can also inform engineers of a "New Job Request Available".
+Engineer Views Details and Sends Offer: Engineers can view the details of a specific service request by tapping View Details. On the "Service Details" screen, they can Select your price and Select your time to create a proposal. They then tap Send Offer.
+Customer Reviews Offers: The customer receives an "Offer List" showing proposals from different engineers who responded to their request. Each offer includes the engineer's name, location, and price.
+Customer Accepts Offer: The customer reviews the offers and can choose to Accept or Decline each one. Accepting an offer proceeds to the "Payment" and "Confirm Booking" steps.
+Communication/Chat: After an offer is accepted and presumably the booking is confirmed, both customers and engineers have access to a Chat feature. This allows for direct messaging between the customer and the selected engineer.
+Completion and Review: Once a service is completed, the customer can provide feedback on the engineer through a Rating & Review screen. This allows customers to rate aspects like service quality and write a review.
+In essence, the app acts as a marketplace where customers post their needs, engineers submit proposals, customers select the best fit, and then communication and service execution follow, culminating in payment and review.
+What payment methods are available?
+Based on the provided sources and our conversation history, the payment method explicitly shown as available within the application is Stripe.
+This payment method is shown in two key areas:
+On the Payment screen when a customer is proceeding to confirm a booking after accepting an engineer's offer. Under "Payment Method", the option displayed is Stripe.
+On the Subscription Plan screen where users can "Go Pro with FixConnect". When choosing a subscription plan (Free, Pro, or Premium), the user is presented with "Choose the Payment Method", and Stripe is listed as an option.
+The Privacy Policy also mentions that the app collects "payment info" and uses this data to "process transactions securely", which aligns with having a payment gateway integrated into the application.
+
+
+What are the subscription plan names?
+Based on the provided sources, the application offers the following subscription plan names under the "Go Pro with FixConnect" option:
+Free Plan
+Pro Plan
+Premium Plan
+These plans are presented on the "Subscription Plan" screen, where users can access premium features. The Free Plan is listed at £0, the Pro Plan costs £20 for a month, and the Premium Plan costs £40 for a month.
+
+
+What are the key functionalities and user flows presented in the application interface?
+Based on the provided sources and our conversation history, the mobile application presents several key functionalities and user flows designed to connect customers and engineers for domestic services.
+Key Functionalities:
+User Registration and Authentication: The application supports distinct registration processes for both Customers and Engineers, requiring details such as User Name, Email, Password, and Location. Engineers also have the option to Upload Trade Certification during registration. Registration includes an email verification step using a code sent to the user's phone number. Users can Log In after registering. A Forgot Password? function is available for password reset via email verification.
+Role Selection: Upon registration or potentially during initial setup, users Choose Your Role by selecting either Customer or Engineers to tailor their app experience.
+Service Requesting (Customer): Customers can Request a Services from their home screen. This involves filling out a form with details like Service Name, Location, Service Date, and a Service Description, with the option to upload an image.
+Service Offer & Response (Engineer): Engineers see a Services Request List on their home screen. They can view the details of a request and then Send Offer by selecting their price and time.
+Offer Management & Booking (Customer): Customers receive an Offer List from interested engineers. They can Accept or Decline individual offers. Accepting an offer leads to the Payment step.
+Payment Processing: The application facilitates payment using Stripe as the specified Payment Method. Payment details and confirmation screens are part of the booking flow.
+Communication: A Chat feature is available, allowing users to message each other.
+Rating and Review: After a service is completed, customers can rate and review the engineer, providing feedback on service quality.
+Subscription Plans: The application offers "Go Pro with FixConnect" subscription plans (Free, Pro, Premium) to access premium features. Payment for subscriptions is also handled via Stripe.
+Profile Management: Users have a Profile screen displaying their information and options for User Information, Subscription, Security, Change Password, Legal and Policies, and Log Out.
+Legal and Policies: The application includes sections detailing the Terms of Service, Privacy Policy, and Refund Policy.
+Key User Flows:
+New User Registration Flow:
+From the initial screen, tap Register.
+On the "Role select" screen, Choose Your Role as Customer or Engineers.
+Complete the relevant "Sign Up" form with required details (User Name, Email, Password, Location). Engineers may also upload Trade Certification.
+Tap Sign In (on the Sign Up screen).
+Enter the Verification code sent to the phone.
+Tap Verify.
+See "Verification Successfull!".
+Tap Continue to proceed into the app.
+Existing User Login Flow:
+From the initial screen, tap Log In.
+On the "Sign In" screen, enter Email and Password.
+Tap Sign In.
+Password Reset Flow:
+On the "Sign In" screen, tap Forgot password?.
+On the "Reset password" screen, Type Your Email and tap Continue.
+Enter the Verification code on the "Verify" screen.
+Tap Verify.
+On the "New Password" screen, enter and Confirm password.
+Tap Change Password.
+See "Successful" confirmation.
+Tap Go to Sign In.
+Customer Requesting a Service Flow:
+From the Home screen, tap Request a Services.
+Fill in the service details (Service Name, Location, Date, Description) and optionally upload an image.
+Tap Send Request.
+Engineer Responding to a Service Request Flow:
+On the Engineer Home screen, view the Services Request List.
+Tap View Details on a specific request.
+On the "Service Details" screen, Select your price and Select your time.
+Tap Send Offer.
+Customer Accepting an Offer and Booking Flow:
+From the Services screen, view the Offer List.
+Review offers and tap Accept on the desired offer.
+On the "Payment" screen, review details and confirm the Stripe Payment Method.
+Tap Pay Now.
+On the "Confirm Booking" screen, confirm details.
+Tap Done.
+Logging Out Flow:
+Navigate to the Profile screen.
+Tap Log Out.
+In the confirmation dialog, tap Yes, Logout.
+These flows demonstrate the core interactions users have with the application, from initial access through service completion and profile management.
+
+
+
+
+
+

@@ -1,0 +1,1212 @@
+[
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f13"
+    },
+    "question": "What is MRPH?",
+    "keywords": [
+      "what",
+      "MRPH",
+      "about",
+      "app",
+      "purpose"
+    ],
+    "answer": "Mobile app connecting customers with certified engineers for technical services.",
+    "category": "general",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f14"
+    },
+    "question": "What does MRPH do?",
+    "keywords": [
+      "what",
+      "does",
+      "marketplace",
+      "engineers",
+      "services"
+    ],
+    "answer": "Marketplace to find trusted engineers for technical issues anytime, anywhere.",
+    "category": "general",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f15"
+    },
+    "question": "Who can use MRPH?",
+    "keywords": [
+      "who",
+      "use",
+      "age",
+      "customers",
+      "engineers"
+    ],
+    "answer": "Users 18+ as Customers (need services) or Engineers (provide services).",
+    "category": "general",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f16"
+    },
+    "question": "How do I create an account?",
+    "keywords": [
+      "create",
+      "account",
+      "register",
+      "sign up"
+    ],
+    "answer": "Tap \"Register\" → Choose role (Customer/Engineer) → Fill sign-up form → Enter verification code → Tap \"Verify\" → Tap \"Continue\"",
+    "category": "registration",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f17"
+    },
+    "question": "How can I register as a customer?",
+    "keywords": [
+      "register",
+      "customer",
+      "sign up",
+      "create account"
+    ],
+    "answer": "Tap \"Register\" → Choose \"Customer\" → Enter User Name, Email, Password, Location → Tap \"Sign In\" → Enter verification code → Tap \"Verify\" → Tap \"Continue\"",
+    "category": "registration",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f18"
+    },
+    "question": "How can I register as an engineer?",
+    "keywords": [
+      "register",
+      "engineer",
+      "professional",
+      "trade certification"
+    ],
+    "answer": "Tap \"Register\" → Choose \"Engineers\" → Enter User Name, Email, Password, Location → Upload Trade Certification → Write description → Set Availability → Tap \"Sign In\" → Enter verification code → Tap \"Continue\"",
+    "category": "registration",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f19"
+    },
+    "question": "What information do I need to register?",
+    "keywords": [
+      "information",
+      "required",
+      "registration",
+      "details"
+    ],
+    "answer": "User Name, Email, Password, Location. Engineers can add Trade Certification, description, availability.",
+    "category": "registration",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f20"
+    },
+    "question": "What is the role selection screen?",
+    "keywords": [
+      "role",
+      "selection",
+      "choose",
+      "customer",
+      "engineer"
+    ],
+    "answer": "Screen where you \"Choose Your Role\" to tailor experience - select Customer or Engineers.",
+    "category": "registration",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f21"
+    },
+    "question": "How do I log in?",
+    "keywords": [
+      "log in",
+      "login",
+      "sign in",
+      "access"
+    ],
+    "answer": "Enter email and password on Sign In screen → Tap \"Sign In\"",
+    "category": "authentication",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f22"
+    },
+    "question": "I forgot my password. How do I reset it?",
+    "keywords": [
+      "forgot",
+      "password",
+      "reset",
+      "recover"
+    ],
+    "answer": "Tap \"Forgot password?\" → Enter email → Tap \"Continue\" → Enter verification code → Tap \"Verify\" → Create new password → Confirm password → Tap \"Change Password\" → Tap \"Go to Sign In\"",
+    "category": "authentication",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f23"
+    },
+    "question": "How do I log out?",
+    "keywords": [
+      "log out",
+      "logout",
+      "sign out",
+      "exit"
+    ],
+    "answer": "Profile screen → Tap \"Log Out\" → Tap \"Yes, Logout\"",
+    "category": "authentication",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f24"
+    },
+    "question": "How do I change my password from profile?",
+    "keywords": [
+      "change",
+      "password",
+      "profile",
+      "update"
+    ],
+    "answer": "Profile → Change Password → Enter current password → Enter new password → Confirm password → Tap \"Update\"",
+    "category": "authentication",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f25"
+    },
+    "question": "What services are available?",
+    "keywords": [
+      "services",
+      "available",
+      "electrical",
+      "hvac",
+      "plumbing"
+    ],
+    "answer": "Electrical Services, HVAC Systems, Security Systems, Power Solutions, Plumbing, Covers leak repairs.",
+    "category": "services",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f26"
+    },
+    "question": "What service categories can I choose from?",
+    "keywords": [
+      "categories",
+      "choose",
+      "electrical",
+      "plumbing",
+      "hvac"
+    ],
+    "answer": "Electrical, Plumbing, HVAC Systems, Security System, Power Solution, Repairs.",
+    "category": "services",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f27"
+    },
+    "question": "How do I request a quote?",
+    "keywords": [
+      "request",
+      "quote",
+      "price",
+      "estimate"
+    ],
+    "answer": "Home screen → Tap \"Request a Services\" → Fill form (Service Name, Mobile Number, Location, Date, Description) → Select category → Tap \"Send Request\"",
+    "category": "booking",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f28"
+    },
+    "question": "How do I request a service?",
+    "keywords": [
+      "request",
+      "service",
+      "book",
+      "hire"
+    ],
+    "answer": "Home screen → Tap \"Request a Services\" → Fill form (Service Name, Mobile Number, Service Location, Service Date, Service Description) → Select category → Upload image → Tap \"Send Request\"",
+    "category": "booking",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f29"
+    },
+    "question": "What information do I need for service request?",
+    "keywords": [
+      "information",
+      "required",
+      "service",
+      "request"
+    ],
+    "answer": "Service Name, Mobile Number, Service Location, Service Date, Service Categories, Service Description, optional image.",
+    "category": "booking",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f30"
+    },
+    "question": "How do I choose an engineer?",
+    "keywords": [
+      "choose",
+      "engineer",
+      "select",
+      "offer"
+    ],
+    "answer": "After requesting → View \"Offer List\" → Review offers (engineer name, location, rating, price) → Tap \"Accept\" or \"Decline\"",
+    "category": "booking",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f31"
+    },
+    "question": "How do I see engineer profiles?",
+    "keywords": [
+      "engineer",
+      "profile",
+      "view",
+      "details"
+    ],
+    "answer": "Tap on engineer from offer list to view profile, ratings, reviews, completed projects, description.",
+    "category": "booking",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f32"
+    },
+    "question": "How do I view my services?",
+    "keywords": [
+      "view",
+      "services",
+      "my",
+      "status"
+    ],
+    "answer": "Services screen → View tabs: Pending, In Progress, Complete",
+    "category": "service_management",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f33"
+    },
+    "question": "What does the home screen show?",
+    "keywords": [
+      "home",
+      "screen",
+      "dashboard",
+      "welcome"
+    ],
+    "answer": "Welcome message, \"Request a Services\" button, \"Recommendation for you\" section with engineer profiles, MRPH Assistant chatbot.",
+    "category": "navigation",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f34"
+    },
+    "question": "How do I reschedule a service?",
+    "keywords": [
+      "reschedule",
+      "change",
+      "time",
+      "date"
+    ],
+    "answer": "Use the chat feature to contact your engineer directly to discuss rescheduling options.",
+    "category": "service_management",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f35"
+    },
+    "question": "How do I see available jobs as an engineer?",
+    "keywords": [
+      "jobs",
+      "available",
+      "engineer",
+      "requests"
+    ],
+    "answer": "Check \"Services Request List\" on home screen or receive \"New Job Request Available\" notifications.",
+    "category": "engineer_workflow",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f36"
+    },
+    "question": "How do I accept a job?",
+    "keywords": [
+      "accept",
+      "job",
+      "take",
+      "work"
+    ],
+    "answer": "Services Request List → Tap \"Accept\" on preferred job",
+    "category": "engineer_workflow",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f37"
+    },
+    "question": "How do I respond to a service request?",
+    "keywords": [
+      "respond",
+      "service",
+      "request",
+      "offer",
+      "bid"
+    ],
+    "answer": "Services Request List → Tap \"View Details\" → Review details → Select your price → Select your time → Tap \"Send Offer\"",
+    "category": "engineer_workflow",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f38"
+    },
+    "question": "How do I view service details as engineer?",
+    "keywords": [
+      "view",
+      "service",
+      "details",
+      "engineer"
+    ],
+    "answer": "Tap \"View Details\" on any request to see location, date/time, category, price, description.",
+    "category": "engineer_workflow",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f39"
+    },
+    "question": "How do I request extra payment?",
+    "keywords": [
+      "extra",
+      "payment",
+      "additional",
+      "request"
+    ],
+    "answer": "Services screen → Tap \"Extra Payment Request\" → Enter amount → Tap \"Send Request\"",
+    "category": "payment",
+    "user_type": "engineer",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f40"
+    },
+    "question": "What information shows in engineer profile?",
+    "keywords": [
+      "engineer",
+      "profile",
+      "information",
+      "shows"
+    ],
+    "answer": "Photo, name, ratings, availability, description, reviews, completed projects, \"Send Message\" option.",
+    "category": "profile",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f41"
+    },
+    "question": "How do I pay for services?",
+    "keywords": [
+      "pay",
+      "payment",
+      "stripe",
+      "billing"
+    ],
+    "answer": "Accept offer → Payment screen → Review Price Details (Price + Extra Payment = Total Amount) → Confirm Stripe payment → Tap \"Pay Now\" → Confirm Booking → Tap \"Done\"",
+    "category": "payment",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f42"
+    },
+    "question": "What payment methods are available?",
+    "keywords": [
+      "payment",
+      "methods",
+      "stripe",
+      "card"
+    ],
+    "answer": "Stripe for secure payments. All major credit/debit cards accepted through Stripe.",
+    "category": "payment",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f43"
+    },
+    "question": "Can I add extra payments?",
+    "keywords": [
+      "extra",
+      "payments",
+      "additional",
+      "add"
+    ],
+    "answer": "Yes, \"Extra Payment\" option available. Shows calculation: Price + Extra Payment = Total Amount.",
+    "category": "payment",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f44"
+    },
+    "question": "How do subscription plans work?",
+    "keywords": [
+      "subscription",
+      "plans",
+      "work",
+      "upgrade"
+    ],
+    "answer": "Profile → Subscription → Choose plan: Free Plan (£0), Pro Plan (£20/month), Premium Plan (£49/month) → Select Stripe payment → Tap \"Buy Now\"",
+    "category": "subscription",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f45"
+    },
+    "question": "How do I upgrade my plan?",
+    "keywords": [
+      "upgrade",
+      "plan",
+      "pro",
+      "premium"
+    ],
+    "answer": "Profile → Subscription → Choose Pro or Premium plan → Select Stripe payment → Confirm upgrade.",
+    "category": "subscription",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f46"
+    },
+    "question": "What do subscription plans offer?",
+    "keywords": [
+      "subscription",
+      "plans",
+      "offer",
+      "features"
+    ],
+    "answer": "Free Plan: \"Jump In & Explore\", Pro Plan: \"Amplify Your Presence\", Premium Plan: \"Headline Every Opportunity\".",
+    "category": "subscription",
+    "user_type": "engineer",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f47"
+    },
+    "question": "What are the service statuses?",
+    "keywords": [
+      "service",
+      "statuses",
+      "pending",
+      "progress",
+      "complete"
+    ],
+    "answer": "Pending (requested but not started), In Progress (being performed), Complete (finished).",
+    "category": "service_management",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f48"
+    },
+    "question": "How do I track my services?",
+    "keywords": [
+      "track",
+      "services",
+      "status",
+      "view"
+    ],
+    "answer": "Services screen → View services organized by status tabs (Pending, In Progress, Complete).",
+    "category": "service_management",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f49"
+    },
+    "question": "What happens after booking?",
+    "keywords": [
+      "after",
+      "booking",
+      "next",
+      "steps"
+    ],
+    "answer": "Service moves to In Progress, you can chat with engineer, receive notifications, leave review when Complete.",
+    "category": "service_management",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f50"
+    },
+    "question": "How do I message engineers/customers?",
+    "keywords": [
+      "message",
+      "chat",
+      "communicate",
+      "contact"
+    ],
+    "answer": "Messages screen → Select conversation → Type message → Send, or Chat tab → Select contact",
+    "category": "communication",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f51"
+    },
+    "question": "Can I see my message history?",
+    "keywords": [
+      "message",
+      "history",
+      "chat",
+      "previous"
+    ],
+    "answer": "Yes, Messages screen shows all conversations with search functionality and conversation previews.",
+    "category": "communication",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f52"
+    },
+    "question": "How does the MRPH Assistant work?",
+    "keywords": [
+      "MRPH",
+      "assistant",
+      "chatbot",
+      "help"
+    ],
+    "answer": "Appears on home screen saying \"Hi! I'm your MRPH Assistant. How can I help you today?\" - provides app guidance.",
+    "category": "support",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f53"
+    },
+    "question": "How do I leave a review?",
+    "keywords": [
+      "leave",
+      "review",
+      "rating",
+      "feedback"
+    ],
+    "answer": "Complete service → Tap \"Rating & Review\" → Select rating (Excellent, Good, Average, Improvement, Poor) → Write review → Tap \"Done\" or \"Skip\"",
+    "category": "reviews",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f54"
+    },
+    "question": "How do I view engineer reviews?",
+    "keywords": [
+      "view",
+      "engineer",
+      "reviews",
+      "ratings"
+    ],
+    "answer": "Engineer profile → Tap \"Review\" tab to see all reviews and ratings from previous customers.",
+    "category": "reviews",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f55"
+    },
+    "question": "What shows in engineer ratings?",
+    "keywords": [
+      "engineer",
+      "ratings",
+      "shows",
+      "display"
+    ],
+    "answer": "Star rating (5.0), number of reviews, individual review comments from customers.",
+    "category": "reviews",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f56"
+    },
+    "question": "How do I rate an engineer?",
+    "keywords": [
+      "rate",
+      "engineer",
+      "rating",
+      "review"
+    ],
+    "answer": "After service completion → Rating & Review screen → Rate service quality → Write review → Submit feedback.",
+    "category": "reviews",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f57"
+    },
+    "question": "How do I contact my engineer?",
+    "keywords": [
+      "contact",
+      "engineer",
+      "message",
+      "chat"
+    ],
+    "answer": "Use built-in Messages feature to chat directly with your engineer. Available after booking confirmation.",
+    "category": "communication",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f58"
+    },
+    "question": "How do I contact my customer?",
+    "keywords": [
+      "contact",
+      "customer",
+      "message",
+      "chat"
+    ],
+    "answer": "Use Messages feature to chat with customers. Helps clarify service details and coordinate visits.",
+    "category": "communication",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f59"
+    },
+    "question": "What notifications do I receive?",
+    "keywords": [
+      "notifications",
+      "receive",
+      "alerts",
+      "updates"
+    ],
+    "answer": "\"New Job Request Available\", \"Job Accepted - Prepare for Visit\", \"New Message from Customer/Engineer\", \"Extra Payment Request\", \"Job Completed - Rate Your Experience\", \"Payment Released\".",
+    "category": "notifications",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f60"
+    },
+    "question": "How do I view notifications?",
+    "keywords": [
+      "view",
+      "notifications",
+      "check",
+      "see"
+    ],
+    "answer": "Notification screen shows all notifications with timestamps and details.",
+    "category": "notifications",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f61"
+    },
+    "question": "What's in my profile?",
+    "keywords": [
+      "profile",
+      "contains",
+      "information",
+      "settings"
+    ],
+    "answer": "Photo, name, email, Personal Info (User Information, My List), Security (Change Password), About (Legal and Policies), Log Out.",
+    "category": "profile",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f62"
+    },
+    "question": "How do I update my profile?",
+    "keywords": [
+      "update",
+      "profile",
+      "edit",
+      "change"
+    ],
+    "answer": "Profile → User Information → Enter username, email → Set Availability → Type location → Write description → Tap \"Update\"",
+    "category": "profile",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f63"
+    },
+    "question": "How do I manage my subscription?",
+    "keywords": [
+      "manage",
+      "subscription",
+      "billing",
+      "plan"
+    ],
+    "answer": "Profile → Subscription → View current plan → Change plan or payment method.",
+    "category": "subscription",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f64"
+    },
+    "question": "What's in My List/Favourites?",
+    "keywords": [
+      "my list",
+      "favourites",
+      "saved",
+      "bookmarks"
+    ],
+    "answer": "Saved engineers you've marked as favorites with their ratings and reviews.",
+    "category": "profile",
+    "user_type": "customer",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f65"
+    },
+    "question": "What are the terms of service?",
+    "keywords": [
+      "terms",
+      "service",
+      "rules",
+      "policy"
+    ],
+    "answer": "Must be 18+, follow laws, no financial liability, account suspension for violations, entertainment/informational purposes only.",
+    "category": "policies",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f66"
+    },
+    "question": "What is the privacy policy?",
+    "keywords": [
+      "privacy",
+      "policy",
+      "data",
+      "information"
+    ],
+    "answer": "Collects name/email/payment info, usage data, communication preferences. Provides/improves app, processes transactions, personalizes experience. Never sells data.",
+    "category": "policies",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f67"
+    },
+    "question": "What is the refund policy?",
+    "keywords": [
+      "refund",
+      "policy",
+      "money back",
+      "return"
+    ],
+    "answer": "All purchases final. No refunds for digital/time-sensitive content. Contact support for technical issues.",
+    "category": "policies",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f68"
+    },
+    "question": "What are the main navigation tabs?",
+    "keywords": [
+      "navigation",
+      "tabs",
+      "menu",
+      "bottom"
+    ],
+    "answer": "Home, Services, Chat, Profile (bottom navigation bar).",
+    "category": "navigation",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f69"
+    },
+    "question": "How do I access different features?",
+    "keywords": [
+      "access",
+      "features",
+      "navigation",
+      "menu"
+    ],
+    "answer": "Use bottom navigation: Home (dashboard), Services (bookings), Chat (messages), Profile (account settings).",
+    "category": "navigation",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f70"
+    },
+    "question": "How do I search for engineers?",
+    "keywords": [
+      "search",
+      "engineers",
+      "find",
+      "browse"
+    ],
+    "answer": "View \"Recommendation for you\" section on home screen or browse through service categories.",
+    "category": "booking",
+    "user_type": "customer",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f71"
+    },
+    "question": "How does verification work?",
+    "keywords": [
+      "verification",
+      "verify",
+      "email",
+      "phone"
+    ],
+    "answer": "Email verification required - enter code sent to phone number. Engineers can upload Trade Certification for additional verification.",
+    "category": "verification",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f72"
+    },
+    "question": "Is the app secure?",
+    "keywords": [
+      "secure",
+      "safety",
+      "security",
+      "safe"
+    ],
+    "answer": "Yes, uses email/phone verification, secure Stripe payments, engineer certification verification, review system for trust.",
+    "category": "verification",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f73"
+    },
+    "question": "How do I get help?",
+    "keywords": [
+      "help",
+      "support",
+      "assistance",
+      "contact"
+    ],
+    "answer": "Profile → Legal and Policies → Contact Support, or reach out through in-app messaging system.",
+    "category": "support",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f74"
+    },
+    "question": "The app is not working properly",
+    "keywords": [
+      "app",
+      "not working",
+      "problem",
+      "issue",
+      "bug"
+    ],
+    "answer": "Try closing and reopening the app. If issues persist, update to latest version or contact support through Profile → Legal and Policies.",
+    "category": "troubleshooting",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f75"
+    },
+    "question": "What if I have technical issues?",
+    "keywords": [
+      "technical",
+      "issues",
+      "problems",
+      "support"
+    ],
+    "answer": "Contact support through app or use MRPH Assistant for immediate help.",
+    "category": "troubleshooting",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f76"
+    },
+    "question": "I'm not receiving notifications",
+    "keywords": [
+      "notifications",
+      "not receiving",
+      "missing",
+      "alerts"
+    ],
+    "answer": "Check device notification settings for MRPH. Ensure notifications are enabled in app settings and device settings.",
+    "category": "troubleshooting",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f77"
+    },
+    "question": "I'm new to MRPH. What should I do first?",
+    "keywords": [
+      "new",
+      "first time",
+      "getting started",
+      "begin"
+    ],
+    "answer": "Register → Choose role → Complete profile → Start browsing services (customers) or available requests (engineers).",
+    "category": "getting_started",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f78"
+    },
+    "question": "What after registration?",
+    "keywords": [
+      "after",
+      "registration",
+      "next steps",
+      "then"
+    ],
+    "answer": "Complete profile, upload certification (engineers), explore app features, familiarize with navigation.",
+    "category": "getting_started",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f79"
+    },
+    "question": "How do I manage my availability?",
+    "keywords": [
+      "availability",
+      "schedule",
+      "manage",
+      "set"
+    ],
+    "answer": "Profile → User Information → Set Availability (dropdown menu for schedule).",
+    "category": "engineer_workflow",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f80"
+    },
+    "question": "How do I view my completed projects?",
+    "keywords": [
+      "completed",
+      "projects",
+      "past work",
+      "portfolio"
+    ],
+    "answer": "Engineer profile shows \"Completed Project\" section with images of past work.",
+    "category": "engineer_workflow",
+    "user_type": "engineer",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f81"
+    },
+    "question": "How do engineers get paid?",
+    "keywords": [
+      "payment",
+      "paid",
+      "money",
+      "engineer"
+    ],
+    "answer": "Receive notification \"Payment Released for Completed Job\" when customer confirms job completion.",
+    "category": "payment",
+    "user_type": "engineer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f82"
+    },
+    "question": "How do I book a service?",
+    "keywords": [
+      "book",
+      "service",
+      "hire",
+      "request"
+    ],
+    "answer": "Tap \"Request a Services\" → Fill service form → Send Request → Accept engineer offer → Pay → Confirm booking → Done",
+    "category": "booking",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f83"
+    },
+    "question": "Can I cancel a service?",
+    "keywords": [
+      "cancel",
+      "service",
+      "cancellation",
+      "remove"
+    ],
+    "answer": "Yes, services screen shows \"Cancel\" option for pending services.",
+    "category": "service_management",
+    "user_type": "customer",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f84"
+    },
+    "question": "How do extra payment requests work?",
+    "keywords": [
+      "extra",
+      "payment",
+      "requests",
+      "additional"
+    ],
+    "answer": "Engineers can request additional payment during service, customers receive notification to \"Accept\" or \"Decline\".",
+    "category": "payment",
+    "user_type": "both",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f85"
+    },
+    "question": "What is the confirmation booking process?",
+    "keywords": [
+      "confirmation",
+      "booking",
+      "process",
+      "confirm"
+    ],
+    "answer": "After payment → \"Confirm Booking\" screen asks \"Do you want to confirm this booking?\" → Tap \"Done\".",
+    "category": "booking",
+    "user_type": "customer",
+    "priority": 2
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f86"
+    },
+    "question": "How do I view service history?",
+    "keywords": [
+      "service",
+      "history",
+      "past",
+      "previous"
+    ],
+    "answer": "Services screen → Complete tab shows all finished services with option to rate and review.",
+    "category": "service_management",
+    "user_type": "both",
+    "priority": 1
+  },
+  {
+    "_id": {
+      "$oid": "68355f310e21145f034a8f87"
+    },
+    "question": "What services are available on MRPH?",
+    "keywords": [
+      "services",
+      "available",
+      "electrical",
+      "hvac",
+      "plumbing"
+    ],
+    "answer": "Electrical Services, HVAC Systems, Security Systems, Power Solutions, Plumbing, Covers leak repairs.",
+    "category": "services",
+    "user_type": "both",
+    "priority": 1
+  }
+]
